@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.Grid {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+#header {
+    background-color: aqua;
+    grid-column: 1/2;
+    grid-row: 1/4;
+
+}
+
+#a {
+    background-color: red;
+}
+
+#b {
+    background-color: blue;
+}
+
+#c {
+    background-color: brown;
+}
