@@ -1,4 +1,4 @@
-mes = int(input("digite o uero"))
+mes = int(input("digite o numero do mes"))
  
 match mes:
     case 1:
