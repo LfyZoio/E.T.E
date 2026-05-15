@@ -1,15 +1,15 @@
+turno = input("digite o seu turno: ")
+
+if turno == "M":
+    print("bom dia")
+elif turno == "V":
+    print("boa tarde")
+elif turno == "N":
+    print("boa noite")
+else:
+    print("valor invalido")
 
 
 
-turno = input(f"digite o seu turno")
 
-match turno:
-    case 1:
-        print("matutino")
-    case 2:
-        print("vespertino")
-    case 3:
-        print("noturno")
-    case _:
-        print("turno invalido")
-        
+
