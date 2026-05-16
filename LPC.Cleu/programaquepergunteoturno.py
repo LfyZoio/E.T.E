@@ -1,13 +1,21 @@
-turno = input("digite o seu turno: ")
+
+
+turno = input("Digite o seu turno: ").strip().upper()
+
+while turno not in ("M", "V", "N"):
+    print("Valor inválido!")
+    turno = input("Digite o seu novo turno: ").strip().upper()
 
 if turno == "M":
-    print("bom dia")
+    print("Bom dia!")
 elif turno == "V":
-    print("boa tarde")
+    print("Boa tarde!")
 elif turno == "N":
-    print("boa noite")
-else:
-    print("valor invalido")
+    print("Boa noite!")
+    while  turno not in ("M", "V", "N"):
+        print("Valor inválido!")
+        turno = input("Digite o seu novo turno: ").strip().upper()        
+    
 
 
 
